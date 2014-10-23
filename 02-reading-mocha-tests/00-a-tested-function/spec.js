@@ -7,6 +7,6 @@ describe("linkTo", function() {
   });
 
   it("should return a valid link for Bloc", function() {
-    expect(challenge.linkTo("Bloc", "http://www.bloc.io")).to.eql("<a href='http://www.bloc.io'>Bloc</a>");
+    expect(challenge.linkTo("http://www.bloc.io", "Bloc")).to.eql("<a href='http://www.bloc.io'>Bloc</a>");
   });
 });
